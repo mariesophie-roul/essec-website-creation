@@ -1,0 +1,291 @@
+/*fonts, some are tests*/
+
+@import url('https://fonts.googleapis.com/css?family=Barlow|Electrolize|Michroma|Raleway&display=swap');
+
+
+
+/*general*/
+
+
+body {
+	background-color: #1E1E1E !important;
+	color: white !important;
+	font-family: Electrolize !important;
+}
+
+footer {
+	position: absolute;
+	bottom: 0px;
+}
+
+.emphasize-button {
+	background-color: #489FCA;
+	color: white;
+	border-radius: 5px;
+	padding: 2px;
+	margin: 5px;
+	vertical-align: middle;
+}
+
+.emphasize-button:hover {
+	color: lightgrey;
+	text-decoration: none;
+}
+
+.container, .container-fluid {
+	margin-top: 210px;
+}
+
+.nav-link {
+	color: white;
+}
+
+.bg-blue {
+	background-color: #489FCA;
+}
+
+.bg-black {
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.border-blue {
+	border: 20px solid #489FCA;
+}
+
+.nav-link {
+	color: rgba(255, 255, 255, 0.5);
+	border-bottom: 6px solid rgba(255, 255, 255, 0.5);
+}
+
+.nav-link:hover {
+	color: rgba(255, 255, 255, 1);
+}
+.active {
+	color: rgba(255, 255, 255, 1);
+	border-bottom: 6px solid rgba(255, 255, 255, 1);
+}
+
+.title-radius {
+	border-top: 5px solid rgba(255, 255, 255, 0.8);
+	border-bottom: 5px solid rgba(255, 255, 255, 0.8);
+	border-radius: 12px;
+}
+
+
+ul {
+	border-left: 5px solid rgba(255, 255, 255, 0.8);
+	border-radius: 15px;
+}
+
+ul li {
+	list-style-type: none;
+}
+
+/*scrollbar*/
+
+
+body::-webkit-scrollbar {
+    width: 8px;
+}
+ 
+body::-webkit-scrollbar-track {
+}
+ 
+body::-webkit-scrollbar-thumb {
+	background-color: white;
+ 	width: 8px;
+ 	border-radius: 10px;
+}
+
+body::-webkit-scrollbar-corner {
+	display: hidden;
+}
+
+
+div::-webkit-scrollbar {
+    width: 8px;
+}
+ 
+div::-webkit-scrollbar-track {
+}
+ 
+div::-webkit-scrollbar-thumb {
+	background-color: white;
+ 	width: 8px;
+ 	border-radius: 10px;
+}
+
+div::-webkit-scrollbar-corner {
+	display: hidden;
+}
+
+
+
+
+/*vignets*/
+
+.applynow {
+	
+}
+
+.vignet {
+	transition-property: opacity;
+	transition-duration: 0.5s;
+	min-width: 150px;
+	max-width: 200px;
+	height: 200px;
+	border-top: 10px solid rgba(255, 255, 255, 0.5);
+	opacity: 0.5;
+	border-radius: 15px;
+}
+
+.vignet-text {
+	margin-top: 10%;
+	background-color: #1E1E1E;
+	padding: 5px;
+	border-radius: 15px;
+}
+
+.vignet:hover {
+	transition-property: opacity;
+	transition-duration: 0.5s;
+	opacity: 1;
+	border-top: 10px solid rgba(255, 255, 255, 0.7);
+
+}
+
+.applynow {
+	max-width: 200px;
+	height: 200px;
+}
+
+.applynow-text {
+	text-align: center;
+	border-top: 3px solid white;
+	border-bottom: 3px solid white;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+
+.globalbba {
+	background-image: url("globalbba.jpg");	
+	background-repeat: no-repeat;
+}
+
+.ge-masters {
+	background-image: url("grande-ecole-masters.jpg");	
+	background-repeat: no-repeat;
+}
+
+.executive-education {
+	background-image: url("executive-education.jpg");	
+	background-repeat: no-repeat;
+
+}
+
+.mba {
+	background-image: url("mba.jpg");	
+	background-repeat: no-repeat;
+
+}
+
+.phd {
+	background-image: url("phd.jpg");	
+	background-repeat: no-repeat;
+
+}
+
+/*grandeecole banner*/
+
+.banner-ge {
+	min-height: 300px;
+	max-height: 400px;
+	border-top: 10px solid rgba(0, 0, 0, 0.5);
+	border-radius: 15px;
+	transition-property: opacity;
+	transition-duration: 0.5s;
+	opacity: 0.5;
+}
+
+.banner-ge:hover {
+	transition-property: opacity;
+	transition-duration: 0.5s;
+	opacity: 1;
+}
+
+.banner-ge-first {
+	background-image: url("banner-ge-first.jpg");
+	background-repeat: no-repeat;
+}
+
+.banner-ge-second {
+	background-image: url("banner-ge-second.jpg");
+	background-repeat: no-repeat;
+}
+
+.banner-ge-third {
+	background-image: url("banner-ge-third.jpg");
+	background-repeat: no-repeat;
+}
+
+
+/* exchange */
+
+.exchange-overview {
+
+}
+
+.exchange-map {
+
+}
+
+.exchange-list {
+
+}
+
+
+/*alumni*/
+
+.banner-alumni {
+	min-height: 200px;
+	max-height: 500px;
+	border-top: 10px solid rgba(0, 0, 0, 0.5);
+	border-radius: 15px;
+	background-image: url("alumni.jpg");
+	background-repeat: repeat;
+}
+
+.vignet-alumni {
+	width: 200px;
+	height: 200px;
+	border-top: 10px solid rgba(255, 255, 255, 0.5);
+	border-radius: 15px;
+	overflow: auto;
+}
+
+.alumni-news-one {
+	background-image: url("alumni-news-one.jpg");
+}
+
+.alumni-news-two {
+	background-image: url("alumni-news-two.jpg");
+}
+
+.alumni-news-three {
+	background-image: url("alumni-news-three.png");
+}
+
+/*diapo-buttons*/
+
+.diapo-previous {
+
+}
+
+.diapo-next {
+
+}
+
+footer {
+
+}
